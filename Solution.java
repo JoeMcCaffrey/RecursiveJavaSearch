@@ -17,10 +17,13 @@ public class Solution {
 		String match = "Integration Rules";
 		
 		File[] fileArray = location.listFiles();
-			
+		
+		// for loop conditional base case
+		// either directory is empty or we've searched each file
+
 		for(int i=0; i < fileArray.length; i++){
 			
-			//base case
+			
 			if(fileArray[i].isFile()){
 				
 				Scanner scanner = new Scanner(fileArray[i]);
