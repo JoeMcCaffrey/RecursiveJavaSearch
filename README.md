@@ -1,5 +1,5 @@
 
-##About
+## About
 	
 This program looks for file contents that match: "Integration Rules"
 
@@ -7,11 +7,11 @@ It will recursively look into directories and subdirectories
 
 The launch point will be the directory where the program lives.
 
-##How to compile:
+## How to compile:
 
 javac Solution.java
 
-##How to Run:
+## How to Run:
 
 java Solution
 
